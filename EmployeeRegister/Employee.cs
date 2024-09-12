@@ -9,8 +9,9 @@ namespace EmployeeRegister
     internal class Employee
     {
 
-        public string Name;
-        public decimal Salary;
+        public string Name { get; set; }
+        public decimal Salary { get; set; }
+
         public Employee(string name, decimal salary)
         {
             Name = name;
